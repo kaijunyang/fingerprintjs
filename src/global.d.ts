@@ -20,6 +20,7 @@ interface Navigator {
   systemLanguage?: string
   deviceMemory?: number
   cpuClass?: string
+  productSub?: string // It's undefined in IE
 }
 
 interface Document {
